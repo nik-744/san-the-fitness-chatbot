@@ -45,4 +45,4 @@ fitness_agent = FitnessAgent(openai_api_key=os.environ["GEMINI_AI"], nut_api_key
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
