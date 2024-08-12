@@ -1,0 +1,65 @@
+/* css for website */
+
+.footer {
+    color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+body {
+	background-image: url(https://c1.wallpaperflare.com/preview/202/347/589/athletes-endurance-energy-exercise.jpg);
+	background-size: cover;
+	/* Adjusts the image size to cover the entire background */
+	background-position: center;
+	/* Centers the image */
+	background-repeat: no-repeat;
+	/* Prevents repeating the image */
+    font-family: cursive, Tahoma, sans-serif;
+    line-height: inherit;
+}
+
+.container-fluid {
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	top: 60px;
+	left: 80px;
+}
+
+.logo img {
+	position : relative;
+	height: 40px;
+    filter: drop-shadow(2px 2px black);
+}
+
+.user_info {
+	font-family :Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Medium screens (tablets, small desktops) */
+@media (max-width: 1024px) {
+    .logo img {
+		top: -30px;
+        height: 30px;
+        left: -25px;
+}
+}
+
+/* Small screens (large phones, small tablets) */
+@media (max-width: 768px) {
+    .logo img {
+		top : -45px;
+		height: 25px;
+    }
+}
+
+/* Extra small screens (phones) */
+@media (max-width: 576px) {
+    .logo img {
+		top: -50px;
+		height: 20px;
+    }
+}
