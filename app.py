@@ -17,12 +17,6 @@ def chat():
     try:
         if any(keyword in user_input.lower() for keyword in ["diet plan", "muscle gain", "weight loss", "bmi", "tdee", "ibw"]):
             # Extract relevant details from the user's input
-            # Note: You may want to further parse user_input to extract specific details
-            height = 170  # Example values, you should parse these from the user's input
-            weight = 70
-            age = 25
-            gender = "male"
-            activity_level = "3"  # Moderately active
 
             bmi = fitness_agent.calculate_bmi(weight, height)
             bmr = fitness_agent.calculate_bmr(weight, height, age, gender)
